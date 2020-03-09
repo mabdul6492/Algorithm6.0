@@ -1,0 +1,1128 @@
+{% extends 'base.html' %}
+
+<body>
+{% block content %}
+        <!-- start banner Area -->
+    <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        BEST TECHNICAL COLLEGES FOR YOUR FUTURE
+                    </h1>
+                    <p class="text-white link-nav"><a href="{% url 'index' %}">Home </a> <span
+                            class="lnr lnr-arrow-right"></span><a href={% url 'top' %}>Top colleges</a> <span </div>
+                </div>
+            </div>
+    </section>
+
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- <script src="" async defer></script> -->
+        <table border="3" style="width: 100%; background-color: lightsteelblue;" align="center">
+            <tbody style="font-size: 20px;">
+                <tr bgcolor="black">
+                    <td style="width: 29px;">
+                        <p><strong>Rank</strong></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><strong>Name of the institute</strong></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><strong>City</strong></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><strong>Entrance</strong></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><strong>Govt./Private</strong></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><strong>APPROX FEES</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">1.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/chennai/indian-institute-of-technology-madras-iit-madras-department-of-management-studies"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">IIT Madras</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Chennai</span><span style="font-weight: 400;">
+                                (Madras)</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">2.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/mumbai/indian-institute-of-technology-bombay" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Bombay</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Mumbai</span><span style="font-weight: 400;"> (Bombay)</span>
+                        </p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                        <br><br>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">250000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">3.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/midnapore-west/indian-institute-of-technology-iit-kharagpur"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">IIT Kharagpur</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Kharagpur</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">220000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">4.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/north-delhi/indian-institute-of-technology-iit-delhi" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Delhi</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">New Delhi</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">5.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/kanpur/indian-institute-of-technology-iit-kanpur" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Kanpur</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Kanpur</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                        <br><br>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">6.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/roorkee/iit-roorkee" target="_blank" class="ui-link"><span
+                                    style="font-weight: 400;">IIT Roorkee</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Roorkee</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">7.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/guwahati/iit-guwahati" target="_blank" class="ui-link"><span
+                                    style="font-weight: 400;">IIT Guwahati</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Guwahati</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">8.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/chennai/anna-university-department-of-management-studies" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Anna University</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Chennai</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">TNEA</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">9.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/kolkata/jadavpur-university" target="_blank" class="ui-link"><span
+                                    style="font-weight: 400;">Jadavpur University</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Kolkata</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">WBJEE</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">10.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/hyderabad/indian-institute-of-technology-hyderabad" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Hyderabad</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Hyderabad</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">11.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/tiruchirappalli/national-institute-of-technology-trichy" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">NIT Tiruchirappalli</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Tiruchirappalli</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">12.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/sundargarh/national-institute-of-technology-rourkela" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">NIT Rourkela</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Rourkela</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">13.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/vellore/vellore-institute-of-technology" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Vellore Institute of
+                                    Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Vellore</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">VITEEE</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Private</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">14.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/mumbai/institute-of-chemical-technology" target="_blank" rel="alternate"
+                                class="ui-link"><span style="font-weight: 400;">Institute of Chemical
+                                    Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Mumbai</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains/ MAH-CET&nbsp;</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">15.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/bhandara/indian-institute-of-technology-indore" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Indore</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Indore</span></p>
+                    </td>
+                    <td style="width: 126px;">&nbsp;JEE Advance</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">16.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/jhunjhunun/bits-pilani" target="_blank" class="ui-link"><span
+                                    style="font-weight: 400;">Birla Institute of Technology and Science</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Pilani</span></p>
+                    </td>
+                    <td style="width: 126px;">&nbsp;BITSAT</td>
+                    <td style="width: 147px;">Private</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">17.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/howrah/indian-institute-of-engineering-science-and-technology-shibpur"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">Indian Institute of
+                                    Engineering
+                                    Science And Technology</span></a><span style="font-weight: 400;">, Shibpur</span>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Howrah</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE MainS&nbsp;</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200780</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">18.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/bhubaneswar/indian-institute-of-technology-bhubaneswar" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Bhubaneswar</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Bhubaneswar</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">207800</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">19.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/patna/indian-institute-of-technology-patna" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Patna</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Patna</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">205200</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">20.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/east-delhi/jamia-millia-islamia" target="_blank" rel="alternate"
+                                class="ui-link"><span style="font-weight: 400;">Jamia Millia Islamia</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">New Delhi</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE MainS</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">21.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/rupnagar/indian-institute-of-technology-ropar" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Ropar</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Rupnagar</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">174000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">22.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/dakshina-kannada/national-institute-of-technology-surathkal"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">NIT Surathkal</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Surathkal</span></p>
+                        <p>
+                        </p>
+                        <p></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">23.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/dhanbad/indian-school-of-mines" target="_blank" rel="alternate"
+                                class="ui-link"><span style="font-weight: 400;">ISM Dhanbad</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Dhanbad</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Advance</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">150000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">24.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/pune/pune-vidhari-ghriha-college-of-engineering-and-technology"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">College of
+                                    Engineering</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Pune</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains/ MAH-CET</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">140000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">25.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/thanjavur/shanmugha-arts-science-technology-and-research-academy"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">Shanmugha Arts Science
+                                    Technology &amp; Research
+                                    Academy</span></a><span style="font-weight: 400;"> (SASTRA)</span></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Thanjavur</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains&nbsp;</td>
+                    <td style="width: 147px;">Private</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">360000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">26.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/patiala/thapar-university" target="_blank" rel="alternate"
+                                class="ui-link"><span style="font-weight: 400;">Thapar University</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Patiala</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Private</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">250000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">27.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/kancheepuram/sri-sivasubramaniya-nadar-college-of-engg" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Sri Sivasubrmaniya Nadar College of
+                                    Engineering</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Kalavakkam</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains&nbsp;</td>
+                    <td style="width: 147px;">Private</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">190000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">28.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/thiruvananthapuram/indian-institute-of-space-science-and-technology"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">Indian Institute of
+                                    Space
+                                    Science and Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Thiruvananthapuram</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Advance&nbsp;</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">180000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">28.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/mandi/indian-institute-of-technology-mandi" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">IIT Mandi</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Mandi</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Advance</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">150000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">30.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/ahmedabad/indian-institute-of-technology-gandhinagar" target="_blank"
+                                rel="alternate" class="ui-link"><span style="font-weight: 400;">IIT Ahmedabad</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Ahmedabad</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Advance</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">120000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">31.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/varanasi/it-bhu" target="_blank" class="ui-link"><span
+                                    style="font-weight: 400;">IIT BHU</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Varanasi</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Advance</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200450</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">31.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/ranchi/birla-institute-of-technology" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Birla Institute of Technology</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Ranchi</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Private</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200599</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">33.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/coimbatore/psg-college-of-technology" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">PSG College of Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Coimbatore</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">TNEA</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">201000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">34.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/warangal/national-institute-of-technology-warangal" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">NIT Warangal</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Warangal</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">215000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">35.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/chennai/srm-institute-of-science-technology" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">S.R.M Institute of Science and
+                                    Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Chennaithapar</span></p>
+                    </td>
+                    <td style="width: 126px;">SRMJEE&nbsp;</td>
+                    <td style="width: 147px;">Private&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">210000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">36.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/mumbai/national-institute-of-industrial-engineering-nitie" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">National Institute of Industrial
+                                    Engineering</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Mumbai</span></p>
+                    </td>
+                    <td style="width: 126px;">GATE</td>
+                    <td style="width: 147px;">Government&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">270000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">37.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/madurai/thiagarajar-college-of-engineering" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Thiagarajar College of
+                                    Engineering</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Madurai</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">TNEA</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Private</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">250000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">38.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/pondicherry/pondicherry-engineering-college-pondicherry" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Pondicherry Engineering
+                                    College</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Puducherry</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains&nbsp;</td>
+                    <td style="width: 147px;">Government&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">330000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">39.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/west-delhi/delhi-technological-university" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Delhi Technological
+                                    University</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">New Delhi</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">320000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">40.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><span style="font-weight: 400;">Zakir Husain College of Engineering &amp; Technology</span>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Aligarh</span></p>
+                    </td>
+                    <td style="width: 126px;">AMUEEE</td>
+                    <td style="width: 147px;">Government&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">220000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">41.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/allahabad/motilal-nehru-national-institute-of-technology" target="_blank"
+                                rel="alternate" class="ui-link"><span style="font-weight: 400;">NIT Allahabad</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Allahabad</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">42.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/nagpur/vnit" target="_blank" class="ui-link"><span
+                                    style="font-weight: 400;">Visvesvaraya National Institute of
+                                    Technology</span></a><span style="font-weight: 400;">, Nagpur (Deemed
+                                University)</span></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Nagpur</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">190000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">43.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/bangalore/manipal-institute-of-technology" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">Manipal Institute of
+                                    Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Manipal</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">MUOET</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Private</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">130000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">44.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/kozhikode/national-institute-of-technology-calicut" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">NIT Calicut</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Calicut</span></p>
+                    </td>
+                    <td style="width: 126px;">JEE Mains&nbsp;</td>
+                    <td style="width: 147px;">Government</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">180000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">45.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/bangalore/m-s-ramaiah-institute-of-technology" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">M. S. Ramaiah Institute of
+                                    Technology</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Bengaluru</span></p>
+                    </td>
+                    <td style="width: 126px;">COMEDK</td>
+                    <td style="width: 147px;">Private&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">100000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">46.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/gautam-buddh-nagar/amity-university-department-of-education"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">AMITY
+                                    University</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Gautam Budh Nagar</span></p>
+                    </td>
+                    <td style="width: 126px;">AMITYJEE</td>
+                    <td style="width: 147px;">Private&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">200000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">47.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/bangalore/kalinga-institute-of-industrial-technology-ibat-bangalore"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">Kalinga Institute of
+                                    Industrial
+                                    Technology</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Bhubaneswar</span></p>
+                    </td>
+                    <td style="width: 126px;">KIITEE</td>
+                    <td style="width: 147px;">Private&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">300000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">48.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/chittoor/institute-of-advanced-study-in-education-sri-venkateswara-university"
+                                target="_blank" class="ui-link"><span style="font-weight: 400;">Sri Venkateswara
+                                    University</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Tirupati</span></p>
+                    </td>
+                    <td style="width: 126px;">SVUEET</td>
+                    <td style="width: 147px;">Government&nbsp;</td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">150000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">49.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/bangalore/r-v-college-of-engineering-bangalore-qip-centre" target="_blank"
+                                class="ui-link"><span style="font-weight: 400;">R.V. College of Engineering</span></a>
+                        </p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Bengaluru</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">COMEDK</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Private</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">180000</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 29px;">
+                        <p><span style="font-weight: 400;">50.</span></p>
+                    </td>
+                    <td style="width: 249px;">
+                        <p><a href="/colleges/surat/svnit" target="_blank" rel="alternate" class="ui-link"><span
+                                    style="font-weight: 400;">NIT Surat</span></a></p>
+                    </td>
+                    <td style="width: 157px;">
+                        <p><span style="font-weight: 400;">Surat</span></p>
+                    </td>
+                    <td style="width: 126px;">
+                        <p><span style="font-weight: 400;">JEE Mains</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">Government</span></p>
+                    </td>
+                    <td style="width: 147px;">
+                        <p><span style="font-weight: 400;">150000</span></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- start footer Area -->
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Top Products</h4>
+                            <ul>
+                                <li><a href="#">Managed Website</a></li>
+                                <li><a href="#">Manage Reputation</a></li>
+                                <li><a href="#">Power Tools</a></li>
+                                <li><a href="#">Marketing Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Quick links</h4>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Brand Assets</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Features</h4>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Brand Assets</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="#">Guides</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Experts</a></li>
+                                <li><a href="#">Agencies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom row align-items-center justify-content-between">
+                        <p class="footer-text m-0 col-lg-6 col-md-12">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template
+                            is
+                            made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                        <div class="col-lg-6 col-sm-12 footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        <!-- End footer Area -->
+    {% endblock %}
+
+    </body>
+
+</html>

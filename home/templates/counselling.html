@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+   <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        BEST Counsellor -
+                    </h1>
+                    <p class="text-white link-nav"><a href="{% url 'index' %}">Home </a> <span
+                            class="lnr lnr-arrow-right"></span><a href={% url 'counselling' %}>Counselling</a> <span </div>
+                </div>
+            </div>
+    </section>
+<h1>Counsellors</h1>
+<ul>
+    <div class='row' >
+        {% for counsellor in counsellors %}
+        <div class='col'>
+            <div id="hii" class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h3 class="card-title">{{ counsellor.0 }}</h3>
+                    <h5 class="card-status">{{ counsellor.1 }}</h5>
+                    <p id="dots" class="card-text">{{ counsellor.2|truncatechars:30 }}<span id="dots">...</span><span id="more">{{ counsellor.2|truncatechars:-1}}</span></p>
+                    <a href="{{ counsellor.3 }}" class="btn btn-primary">Linkedin</a>
+                <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</ul>
+
+
+</body>
+{% endblock %}
